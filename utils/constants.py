@@ -1,0 +1,1 @@
+not_authorized_data = {'result': 'You are not authorized.'}
