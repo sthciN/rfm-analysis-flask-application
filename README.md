@@ -4,20 +4,21 @@ Utilized for comprehending and categorizing customers according to their purchas
 Through RFM Analysis, a company can evaluate customers based on:
 
 Recency: the date of their most recent purchase
+
 Frequency: how often they make purchases
+
 Monetary value: the amount spent on purchases
 
 ## Requirements
 To conduct RFM analysis with Python, it's essential to have a dataset containing customer IDs, purchase dates, and transaction amounts. With this data, we can compute RFM values for individual customers, allowing us to analyze their purchasing patterns and behaviors. I have identified a suitable dataset for this purpose, and you can access and download it [here](https://www.kaggle.com/datasets/harshsingh2209/rfm-analysis).
 After downloading the dataset, move it to the `data` folder.
-Find the API_KEY configuration withing the `.env` file.
+Add the API_KEY configuration withing the `.env` file: `API_KEY=your_api_key`
 
 ## Code Structure
 ```
 ├── README.md
 ├── app
 │   └── __init__.py
-├── controller
 ├── data
 ├── main.py
 ├── requirements.txt
