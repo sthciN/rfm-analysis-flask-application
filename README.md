@@ -19,7 +19,7 @@ Add the API_KEY configuration withing the `.env` file: `API_KEY=your_api_key`
 ├── README.md
 ├── app
 │   └── __init__.py
-├── data
+├── data <your dataset named rfm_dataset.csv goes here.>
 ├── main.py
 ├── requirements.txt
 ├── rfm_score.py
